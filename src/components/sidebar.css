@@ -1,0 +1,28 @@
+.sidebar{
+    padding: 5px;
+    height:80vh;
+    border: 1px solid lightgray;
+    overflow-y: scroll;
+    margin-bottom: 20px;
+}
+.sidebar::-webkit-scrollbar{
+    display: none;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom: 2px;
+    /* border:0.5px solid lightgray; */
+}
+.head{ 
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+.search{
+    font-size: 25px;
+    color:rgb(122, 119, 119);
+    margin-right: 5px;
+    cursor: pointer;
+}

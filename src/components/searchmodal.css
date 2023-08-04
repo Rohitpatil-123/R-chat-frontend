@@ -1,0 +1,9 @@
+.users{
+    padding: 5px;
+    height:50vh;
+    border: 1px solid lightgray;
+    overflow-y: scroll;
+}
+.users::-webkit-scrollbar{
+    display: none;
+}
